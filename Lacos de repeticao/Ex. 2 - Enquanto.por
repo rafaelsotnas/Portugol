@@ -3,22 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n[5], x, maior
+		inteiro num, mult = 3, num2 = 0, contador = 0
 
-		para(x=0;x<5;x++)
-		{
-			escreva("\nInforme a nota ", x+1, ": ")
-			leia(n[x])	
+
+		escreva("\nInsira número: ")
+		leia(num)
+
+		enquanto(num2 <= 100){
+
+			
+			num2 = num * mult
+			escreva("\nResultado: ", num2)
+			num++
+			contador = 101
+			
 		}
-		maior = n[0]
-
-		para(x=0;x<5;x++)
-		{
-			se(maior < n[x])
-			maior = n[x]
-		}
-
-		escreva("\nA maior nota foi: ", maior)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,9 +25,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 128; 
+ * @POSICAO-CURSOR = 228; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {n, 6, 10, 1}-{x, 6, 16, 1}-{maior, 6, 19, 5};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
