@@ -1,4 +1,3 @@
 # Portugol
-Práticas de Portugol Studio.
 
-Lógica de programação, bootcamp@GENERATION.
+Práticas de lógica exercidas no início do bootcamp Generation.
